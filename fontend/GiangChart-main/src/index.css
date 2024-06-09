@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  width: 100%;
+  background-color: #ddd;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 32% 32% 32%;
+}
+
+.dataCard {
+  background-color: #efefef;
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+  margin: 1rem;
+}
+.chart {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.bg-degree {
+  background: rgb(180, 58, 130);
+  background: linear-gradient(
+    0deg,
+    rgba(180, 58, 130, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.center-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.font-size {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+.bg-humid {
+  background: rgb(39, 133, 181);
+  background: linear-gradient(
+    0deg,
+    rgba(39, 133, 181, 1) 0%,
+    rgba(11, 125, 199, 1) 35%,
+    rgba(12, 49, 115, 1) 100%
+  );
+}
+.bg-light {
+  background: rgb(246, 219, 93);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 222, 87, 1) 0%,
+    rgba(255, 213, 53, 1) 35%,
+    rgba(255, 195, 12, 1) 100%
+  );
+}
+.color-fan {
+  color: #4be9dd;
+}
+.font-size-fan {
+  font-size: 4rem;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.active {
+  animation: rotate 0.5s linear infinite;
+}
+.gap {
+  gap: 6rem;
+}
+.light {
+  color: yellow;
+}
+.active-btn {
+  background: white;
+  border: 1px solid rgb(51, 51, 230);
+  color: rgb(51, 51, 230);
+}
+.bg-header {
+  background: rgb(75, 233, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(75, 233, 221, 1) 0%,
+    rgba(255, 213, 53, 1) 35%,
+    rgba(255, 195, 12, 1) 100%
+  );
+}

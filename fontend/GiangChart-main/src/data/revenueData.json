@@ -1,0 +1,74 @@
+[
+    {
+      "label": "1 PM",
+      "revenue": 64,
+      "cost": 32,
+      "price": 30
+    },
+    {
+      "label": "2 PM",
+      "revenue": 54,
+      "cost": 42,
+      "price": 31
+    },
+    {
+      "label": "3 PM",
+      "revenue": 11,
+      "cost": 50,
+      "price": 40
+    },
+    {
+      "label": "4 PM",
+      "revenue": 82,
+      "cost": 64,
+      "price": 50
+    },
+    {
+      "label": "5 PM",
+      "revenue": 91,
+      "cost": 41,
+      "price": 30
+    },
+    {
+      "label": "6 PM",
+      "revenue": 10,
+      "cost": 83,
+      "price": 70
+    },
+    {
+      "label": "7 PM",
+      "revenue": 90,
+      "cost": 44,
+      "price": 40
+    },
+    {
+      "label": "8 PM",
+      "revenue": 82,
+      "cost": 37,
+      "price": 30
+    },
+    {
+      "label": "9 PM",
+      "revenue": 62,
+      "cost": 43,
+      "price": 60
+    },
+    {
+      "label": "10 PM",
+      "revenue": 82,
+      "cost": 45,
+      "price": 70
+    },
+    {
+      "label": "11 PM",
+      "revenue": 56,
+      "cost": 47,
+      "price": 75
+    },
+    {
+      "label": "12 PM",
+      "revenue": 87,
+      "cost": 39,
+      "price": 80
+    }
+  ]

@@ -1,0 +1,38 @@
+[
+    {
+      "stt": 1,
+      "type": "Fan",
+      "activity": "ON",
+      "time": "11-01-2024"
+    },
+    {
+        "stt": 2,
+        "type": "Fan",
+        "activity": "ON",
+        "time": "11-01-2024"
+      },
+      {
+        "stt": 3,
+        "type": "Fan",
+        "activity": "ON",
+        "time": "11-01-2024"
+      },
+      {
+        "stt": 3,
+        "type": "Fan",
+        "activity": "ON",
+        "time": "11-01-2024"
+      },
+      {
+        "stt": 4,
+        "type": "Fan",
+        "activity": "ON",
+        "time": "11-01-2024"
+      },
+      {
+        "stt": 5,
+        "type": "Fan",
+        "activity": "ON",
+        "time": "11-01-2024"
+      }
+  ]
